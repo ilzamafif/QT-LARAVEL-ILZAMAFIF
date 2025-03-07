@@ -1,4 +1,5 @@
 Quick Test : Laravel & Node.js 
+
 Durasi: 60 menit
 
 Tujuan: Menguji kemampuan kandidat dalam memproses data menggunakan PHP dan NodeJs.
@@ -10,6 +11,7 @@ Anda memiliki kumpulan data pelanggan dalam bentuk array, dan diminta untuk mela
 data pelanggan yang akan diproses:
 PHP : 
 
+```
 [
 ["id" => 1, "name" => "Alice", "age" => 25, "city" => "Jakarta", "spent" => 1500000],
 ["id" => 2, "name" => "Bob", "age" => 30, "city" => "Surabaya", "spent" => 2500000],
@@ -18,7 +20,9 @@ PHP :
 ["id" => 5, "name" => "Eve", "age" => 22, "city" => "Surabaya", "spent" => 1000000]
 ];
 
+```
 Node js :
+```
 [
 { "id": 1, "name": "Alice", "age": 25, "city": "Jakarta", "spent": 1500000 },
 { "id": 2, "name": "Bob", "age": 30, "city": "Surabaya", "spent": 2500000 },
@@ -26,6 +30,7 @@ Node js :
 { "id": 4, "name": "David", "age": 35, "city": "Jakarta", "spent": 3000000 },
 { "id": 5, "name": "Eve", "age": 22, "city": "Surabaya", "spent": 1000000 }
 ]
+```
 
 Tugas:
 
@@ -34,10 +39,12 @@ Tugas:
 - Transformasi: Ubah format data menjadi array baru hanya dengan kolom id, name, dan total spent (dalam juta rupiah).
 Expected Output (Setelah Sorting, Filtering, dan Transformasi):
 
+```
 [
 { "id": 4, "name": "David", "total_spent": "3 juta" },
 { "id": 1, "name": "Alice", "total_spent": "1.5 juta" }
 ]
+```
 
 
 Penilaian
